@@ -7,7 +7,7 @@
 // console.log(balance)            //[Number: 100]
 
 // console.log(balance.toString().length)
-// console.log(balance.toFixed(3))
+// console.log(balance.toFixed(6))             //100.000000
 
 //---------
 
@@ -23,4 +23,23 @@
 
 ////*********************MAths******************* */
 
-console.log(Math)
+// console.log(Math)
+// console.log(Math.abs(-4))           //convert -ve to +ve
+
+
+// console.log(Math.round(2.3))
+// console.log(Math.ceil(2.3))
+// console.log(Math.floor(2.9))
+
+// console.log(Math.min(1,2,3,4,5))
+// console.log(Math.max(1,2,3,4,5))
+
+////-------------------------------------------
+
+// console.log(Math.random())              //gives random value betn 0 to 1
+
+// console.log((Math.random()*10)+1)              
+
+const min=10
+const max=20
+console.log(Math.floor(Math.random()*(max-min+1)) +min)
