@@ -32,8 +32,8 @@ let myDate = new Date()
 
 
 let newOne= new Date()
-// console.log(newOne.getDay())
-// console.log(newOne.getMonth()+1)
+console.log(newOne.getDay())
+console.log(newOne.getMonth()+1)
 
 // `${newOne.getDay()} and the ${newOne.getTime()}`
 

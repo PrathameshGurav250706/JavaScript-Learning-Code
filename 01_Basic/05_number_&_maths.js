@@ -8,7 +8,7 @@
 
 // console.log(balance.toString().length)
 // console.log(balance.toFixed(6))             //100.000000
-
+// console.log(score.toString().length)
 //---------
 
 // const number1= 250706.281105
@@ -38,8 +38,8 @@
 
 // console.log(Math.random())              //gives random value betn 0 to 1
 
-// console.log((Math.random()*10)+1)              
+// console.log((Math.random()*10))              
 
 const min=10
-const max=20
+const max=30
 console.log(Math.floor(Math.random()*(max-min+1)) +min)

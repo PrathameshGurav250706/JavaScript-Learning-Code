@@ -8,7 +8,7 @@
 
 // //-------------------------------------------------------------------
 
-// const gameName= new String("gtajkkhgkj5")
+const gameName= new String("gtajkkhgkj5")
 
 // console.log(gameName[0])
 // console.log(gameName.__proto__)
@@ -19,6 +19,7 @@
 // console.log(gameName.indexOf("a"))
 
 // console.log(gameName.substring(0,3))
+// console.log(gameName.slice(0,3))
 
 // s=gameName.slice(-11,5)
 // console.log(s)
@@ -31,11 +32,11 @@
 
 ////-------------------------------------------------------------
 
-// const text="abcdefgh"
+const text="abcdefgh"
 // console.log(text.replace('abc','---'))
 
-// console.log(text.includes('def'))
-// console.log(text.includes('pqr'))
+console.log(text.includes('def'))
+console.log(text.includes('pqr'))
 
 ////-------------------------------------
 
